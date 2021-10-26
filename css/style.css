@@ -174,7 +174,7 @@
 }
 
 @media (max-width: 370px) {
-  .filter-button-group button{
+  .filter-button-group button {
     font-size: 12px !important;
   }
 }
@@ -183,4 +183,10 @@
 
 .cantact {
   padding: 30px 0 60px 0;
+}
+
+/* ============== Footer ==============*/
+
+.footer {
+  padding: 50px 0;
 }
