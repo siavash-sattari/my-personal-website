@@ -100,3 +100,10 @@
   transform: skew(-12deg) translateX(-20%);
   background: rgba(238, 111, 87, 0.5);
 }
+
+/* ============== Skills ==============*/
+
+.skills {
+  padding: 30px 0;
+  background: rgb(247, 247, 247);
+}
