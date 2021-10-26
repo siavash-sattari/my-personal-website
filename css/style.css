@@ -74,3 +74,29 @@
   left: 0;
   right: 0;
 }
+
+/* ============== About ==============*/
+
+.about {
+  padding: 50px 0;
+}
+
+.about p {
+  font-size: 17px;
+  text-align: justify;
+}
+
+.section-title {
+  padding: 10px 0 20px;
+  position: relative;
+}
+
+.section-title::before {
+  content: "";
+  position: absolute;
+  bottom: 20px;
+  width: 100px;
+  height: 14px;
+  transform: skew(-12deg) translateX(-20%);
+  background: rgba(238, 111, 87, 0.5);
+}
