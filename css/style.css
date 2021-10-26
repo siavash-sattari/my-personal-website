@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Nothing You Could Do";
+  src: url(../fonts/NothingYouCouldDo.ttf);
+}
+
+/* ============== Navbar ==============*/
+
+.navbar-brand {
+  font-family: "Nothing You Could Do";
+  color: #000 !important;
+  font-weight: bolder;
+  font-size: 36px;
+  text-transform: capitalize;
+}
+
+.nav-item a {
+  font-size: 18px;
+  color: #000 !important;
+  font-weight: 600;
+  /* for border-bottom : */
+  padding: 20px 0 25px;
+  position: relative;
+}
+
+.nav-item a:hover::before,
+.nav-item a.item1::before {
+  content: "";
+  position: absolute;
+  bottom: 25px;
+  width: 60px;
+  height: 11px;
+  transform: skew(-12deg) translateX(-13%);
+  background: rgba(238, 111, 87, 0.5);
+}
+
+.contact-btn {
+  text-decoration: none;
+  color: rgb(252, 252, 252) !important;
+  border: none;
+  padding: 7px 15px;
+  font-size: 17px;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  background: #222 !important;
+}
+
+.contact-btn:hover {
+  background: rgb(44, 44, 44) !important;
+  text-decoration: none;
+}
