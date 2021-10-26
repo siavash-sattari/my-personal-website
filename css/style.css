@@ -50,3 +50,27 @@
   background: rgb(44, 44, 44) !important;
   text-decoration: none;
 }
+
+/* ============== Banner ==============*/
+
+.banner-section {
+  background-image: url("../images/road.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+  padding: 200px 0;
+}
+
+.banner-section .profile-img img {
+  width: 170px;
+  border: 2px solid #fff;
+  padding: 7px;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
